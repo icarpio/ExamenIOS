@@ -48,16 +48,6 @@
 			path = ExamenIOS;
 			sourceTree = "<group>";
 		};
-		6C54107B2CA2A12100FA186A /* ExamenIOSTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ExamenIOSTests;
-			sourceTree = "<group>";
-		};
-		6C5410852CA2A12100FA186A /* ExamenIOSUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ExamenIOSUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				6C5410642CA2A12000FA186A /* ExamenIOS */,
-				6C54107B2CA2A12100FA186A /* ExamenIOSTests */,
-				6C5410852CA2A12100FA186A /* ExamenIOSUITests */,
 				6C5410632CA2A12000FA186A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				6C54107A2CA2A12100FA186A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				6C54107B2CA2A12100FA186A /* ExamenIOSTests */,
-			);
 			name = ExamenIOSTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				6C5410842CA2A12100FA186A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6C5410852CA2A12100FA186A /* ExamenIOSUITests */,
 			);
 			name = ExamenIOSUITests;
 			packageProductDependencies = (
