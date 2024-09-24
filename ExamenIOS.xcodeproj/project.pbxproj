@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C5410622CA2A12000FA186A /* ExamenIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamenIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C5410782CA2A12100FA186A /* ExamenIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C5410822CA2A12100FA186A /* ExamenIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5410622CA2A12000FA186A /* ExamenIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ExamenIOS.app; path = "/Users/mananas/XCodeProjects/ExamenIOS/build/Debug-iphoneos/ExamenIOS.app"; sourceTree = "<absolute>"; };
+		6C5410782CA2A12100FA186A /* ExamenIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ExamenIOSTests.xctest; path = "/Users/mananas/XCodeProjects/ExamenIOS/build/Debug-iphoneos/ExamenIOS.app/PlugIns/ExamenIOSTests.xctest"; sourceTree = "<absolute>"; };
+		6C5410822CA2A12100FA186A /* ExamenIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ExamenIOSUITests.xctest; path = "/Users/mananas/XCodeProjects/ExamenIOS/build/Debug-iphoneos/ExamenIOSUITests-Runner.app/PlugIns/ExamenIOSUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -79,18 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				6C5410642CA2A12000FA186A /* ExamenIOS */,
-				6C5410632CA2A12000FA186A /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		6C5410632CA2A12000FA186A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6C5410622CA2A12000FA186A /* ExamenIOS.app */,
-				6C5410782CA2A12100FA186A /* ExamenIOSTests.xctest */,
-				6C5410822CA2A12100FA186A /* ExamenIOSUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +180,7 @@
 			mainGroup = 6C5410592CA2A12000FA186A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6C5410632CA2A12000FA186A /* Products */;
+			productRefGroup = 6C5410592CA2A12000FA186A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
